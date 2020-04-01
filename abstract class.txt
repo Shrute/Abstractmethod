@@ -1,0 +1,1 @@
+public abstract class car{	   abstract void run();	 }	 class Hondacity extends car{	 void run(){System.out.println("my fav car.");}	 public static void main(String args[]){	  car obj = new Hondacity();	  obj.run();	 }	 }
